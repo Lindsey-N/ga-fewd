@@ -1,0 +1,12 @@
+body {
+       background-color: lightblue;
+       color: purple;
+     }
+
+.db {
+  color:darkblue;
+}
+
+#highlight {
+  background-color: yellow;
+}
