@@ -1,7 +1,12 @@
 body {
-      font-family:"Arial", Gadget, sans-serif;
+      font-family:"Helvetica", Arial, sans-serif;
 }
 
 .g {
     color:lightgrey;
+}
+
+img.frame {
+  box-shadow: 1px 4px 10px black;
+  border-radius: 10px;
 }

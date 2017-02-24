@@ -1,0 +1,14 @@
+h1 {
+  background-color: #7FDBFF;
+  padding: 15px 15px 15px 15px;
+  border: 20px solid black;
+  margin: 15px 15px 30px 15px;
+  width:300px;
+}
+
+div {
+  border: 1px dotted red;
+  height:100px;
+  width:100px;
+  margin-top:10px;
+}

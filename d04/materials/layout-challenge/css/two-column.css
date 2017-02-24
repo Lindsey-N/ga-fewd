@@ -1,0 +1,28 @@
+div {
+  background-color:lightgrey;
+  border: 1px solid black;
+  margin-bottom:10px;
+}
+
+#top {
+  height: 100px;
+}
+
+#left {
+  float: left;
+  height:200px;
+  width:300px;
+}
+
+#right {
+  float:right;
+  height:200px;
+  width:100px;
+}
+
+#bottom {
+  
+  height:100px;
+}
+
+IN LINE TEXT IS A THING!
