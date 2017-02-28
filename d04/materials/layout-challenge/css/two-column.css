@@ -9,20 +9,23 @@ div {
 }
 
 #left {
+  display:inline-block;
   float: left;
   height:200px;
   width:300px;
 }
 
 #right {
+  display:inline-block;
   float:right;
   height:200px;
   width:100px;
 }
 
 #bottom {
-  
   height:100px;
 }
 
 IN LINE TEXT IS A THING!
+
+the "display" command should be fixing this but it isn't >:(
