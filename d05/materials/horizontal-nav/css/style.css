@@ -1,0 +1,33 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+  display:inline-block;
+  width:99%;
+}
+
+a:link, a:visited {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+.spacing:hover {
+  color: #ffffff;
+  background-color:#ff7401;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.spacing {
+  padding-right: 10px;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom:10px;
+}

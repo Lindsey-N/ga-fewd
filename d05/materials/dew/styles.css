@@ -1,0 +1,17 @@
+.logo_flag {
+  display: inline-block;
+}
+
+h1 {
+  background-color: red;
+}
+
+div.hero{
+  width:1325px;
+  height: 625px;
+}
+
+img {
+  width: 1325px;
+  height: 625px;
+}
