@@ -1,0 +1,81 @@
+body {
+  margin:0;
+}
+
+h1, h2 {
+  display: inline-block;
+  margin: 0px;
+}
+
+h1 {
+  background-color: red;
+  color: white;
+  padding: 10px 4px 10px 120px;
+}
+
+h2 {
+  padding-left: 7px;
+  font-size: 16px;
+  color: grey;
+}
+
+div.container {
+  width: 960px;
+  margin: 0px auto;
+}
+
+img {
+  width:960px;
+  height:300px;
+  object-fit:cover;
+}
+
+/* other way to do this is have a div that is empty and use me.jpg as a bg photo.
+This one works in internet explorer.
+  
+  div.cover-photo {
+    background-image: url('me.jpg');
+    height: 300ps;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }*/
+
+  div.main {
+    width:360px;
+    margin: 0px auto;
+  }
+
+  div.main > p { /* means target p within( child of) div.main*/
+    color: grey;
+    line-height: 22px;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    width: 170px;
+    padding: 10px 0; /*putting just 2 numbers in here means "left and right", top
+                      and bottom*/
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #email {
+    width:100%;
+  }
+
+  #twitter, #medium, #pinterest {
+    margin-right: 16px;
+  }
+
+  #footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 36px;
+    padding-bottom:10px;
+    margin: 0;
+  }

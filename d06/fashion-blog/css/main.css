@@ -1,0 +1,23 @@
+body {
+  font-family:'Lato', sans-serif;
+}
+
+div.container {
+  width: 900px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1, div.bottom, a.continue {
+  color: #D92F0D;
+}
+
+.date, .top, .footer {
+  color:lightgrey;
+}
+
+a:visited {
+  font-size: 50px;
+} /*this ain't working atm, I'm pretty sure I'm doing the pseudo selector wrong*/
