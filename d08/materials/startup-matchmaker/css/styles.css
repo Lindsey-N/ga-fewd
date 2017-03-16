@@ -1,0 +1,75 @@
+/*
+// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+*/
+
+/*fonts*/
+html {
+  font-size: 16px; is there a reason to use this right now?
+}
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+header h1, .caption, article h3 {
+  font-family: 'Merriweather', serif;
+}
+
+section h2, nav a:link, nav a:visited, .button {
+  font-family: 'Oswald', sans-serif;
+}
+
+/*link decoration*/
+a:link {
+  text-decoration:none;
+  color:black;
+}
+
+a:visited {
+  color:black;
+}
+
+/*header design*/
+
+header {
+  background-color: black;
+  border-bottom: solid yellow 3px;
+}
+
+header h1 {
+  color: yellow;
+  font-size:2rem;
+  margin-top: 5px;
+}
+
+header a:link, header a:visited {
+  color: white;
+}
+
+nav {
+  text-align: right;
+  padding
+}
+
+nav a {
+  padding-right: 15px;
+}
+
+/*tagline design*/
+
+/*bg image*/
+.bg-image {
+    background-image: url("../img/coworking.jpg");
+}
+
+/*"Meet Your Match!*/
+.col-7-12, /*yes I know it should be push, but push wasn't 
+           working.You can change it yourself to check. 
+           It pushed the column below the push*/{
+  height:20px;
+}
+
+/*articles*/
