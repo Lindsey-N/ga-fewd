@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Playground</title>
+  <style type="text/css">
+    div#container {
+      width: 100%;
+      min-width: 680px;
+    }
+
+    .grid .row {
+      margin: 0 0 1px 0;
+      height: 30px;
+    }
+
+    .grid .piece {
+      margin: 0;
+      height: 30px;
+      width: 30px;
+      border: 1px black dotted;
+      display: inline-block;
+    }
+
+    .grid .piece.block {
+      box-shadow: 1px 1px 1px dimgrey;
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <div id="container"></div>
+  </center>
+
+  <script src="./app.js"></script>
+  <script type="text/javascript">
+    var g = new Grid(20);
+    g.attachTo('#container');
+  </script>
+  <script>
+    //g.fill(0, 0, "color blue")
+
+    //var responseFromUser = prompt("Do you want this next cell to be filled in?");
+
+    // if (responseFromUser === "yes") {
+    //   g.fill(1, 0, "color green"); 
+    // } //aaaay if then statements!
+    //   else {
+    //     alert("You're no fun.");
+    //   }
+
+
+
+    // var num = 0
+
+    // while (num < 20) {
+    //   g.fill(num, 1, "color green")
+    //   num = num + 1
+    // }
+
+
+// second bonus
+    var x = 0;
+
+    while (x < 20) {
+      g.fill(x, x, "color blue");
+      g.fill(x, 19 - x, "color blue");
+      x = x + 1;
+    }
+
+  </script>
+</body>
+</html>
