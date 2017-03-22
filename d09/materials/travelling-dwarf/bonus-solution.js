@@ -44,7 +44,7 @@ while (on = 1) {
     }
   }
 
-  if else (run = 2) {
+  else if (run = 2) {
     d.orient("left")
     d.move();
     x = x - 1;
@@ -61,7 +61,7 @@ while (on = 1) {
     }
   }
 
-  if else (run = 3) {
+  else if (run = 3) {
     d.orient("down")
     d.move();
     y = y + 1;
@@ -78,7 +78,7 @@ while (on = 1) {
     }
   }
 
-  if else (run = 4) {
+  else if (run = 4) {
     d.orient("up")
     d.move();
     y = y - 1;
