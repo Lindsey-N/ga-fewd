@@ -1,0 +1,48 @@
+button#file, button#edit {
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  display: inline-block;
+  border: solid black 1px;
+  padding: 20px 35px 20px 35px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: white;
+
+}
+
+h1 {
+  position: relative;
+}
+
+#dropdownF, #dropdownE {
+  display: none;
+  position: absolute;
+  border: solid black 1px;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+#dropdownF {
+top: -15px;
+}
+
+#dropdownE {
+  left: 145px;
+  top: -15px;
+}
+
+#open, #copy {
+  padding: 5px 150px 5px 20px;
+  margin-top: 10px;
+}
+
+#save, #cut {
+  padding: 5px 150px 5px 20px;
+  margin-bottom: 10px;
+}
+
+div#open:hover, div#save:hover, div#copy:hover, div#cut:hover, button#file:hover, button#edit:hover, button#file:focus, button#edit:focus {
+  background-color: lightgrey;
+}
