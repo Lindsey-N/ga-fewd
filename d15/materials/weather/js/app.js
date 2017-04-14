@@ -19,10 +19,16 @@ $("button").on("click", function() {
     // I can see the icon on the api, why can't I get it here? I tried as a string, a number won't work
     console.log(icon);
 
+    //$(".icon").attr("src", ["weather"]["icon"]);
+      //this seems to be the right syntax now? I still don't know how to do this
+
     //I also still have no idea what to DO with this icon information...
     // I can tell you that what I want to do is have a string that will connect to the src in
     // the img.icon, where I input the icon that the data gives me into the correct place to
     // get the image I want. But I don't know what I need to do for that.
+
+
+    // found the problem! I didn't see that it was in array format! that means I need to put the array number ([0]) AFTER weather!
 
   }); // this data is ONLY available until this function is closed. So you need to do everything here INSIDE the function
 });
