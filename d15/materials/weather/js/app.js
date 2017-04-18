@@ -13,20 +13,9 @@ $("button").on("click", function() {
     temp = (data["main"]["temp"]);
     $("span.temperature").text(temp);
 
-    console.log(data["weather"]["icon"]);// why is this giving me undefined?
+    icon = (data["weather"][0]["icon"]);
 
-    icon = (data["weather"]["icon"]); // still giving me undefined...what is wrong?
-    // I can see the icon on the api, why can't I get it here? I tried as a string, a number won't work
-    console.log(icon);
-
-    //$(".icon").attr("src", ["weather"]["icon"]);
-      //this seems to be the right syntax now? I still don't know how to do this
-
-    //I also still have no idea what to DO with this icon information...
-    // I can tell you that what I want to do is have a string that will connect to the src in
-    // the img.icon, where I input the icon that the data gives me into the correct place to
-    // get the image I want. But I don't know what I need to do for that.
-
+    $("img.icon").attr("src", "http://openweathermap.org/img/w/" + icon + ".png");
 
     // found the problem! I didn't see that it was in array format! that means I need to put the array number ([0]) AFTER weather!
 
@@ -35,3 +24,5 @@ $("button").on("click", function() {
 
 
 // 2nd part of lab, flesh out wireframe
+
+

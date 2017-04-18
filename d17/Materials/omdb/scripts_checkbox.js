@@ -58,21 +58,21 @@ $("input.adult").on("click", function() {
   if(this.checked) {
     $("ul").children().remove();
     movies.forEach(function(aSingleMovie) {
-      var coolForKids = aSingleMovie["Rating"];
-      if( coolForKids !== "R") {
-        var li = $("<li>" + aSingleMovie["title"] + "</li>");
-        $("ul.search-history").append(li);
-      }
-    })
+    var movieRating = aSingleMovie["Rated"];
+    if( !movieRating == "R") {
+      var li = $("<li>" + aSingleMovie["title"] + "</li>");
+      $("ul.search-history").append(li);
+      console.log("Test if Sausage Party makes this happen. Should only be one of these sentences")
+    } // yes I know I'm leaving only R Rated movies here. If I can get this to work, then i can just add the "not" statement to the if statement
+  })
   } else {
     $("ul").children().remove();
     movies.forEach(function(aSingleMovie) {
       var li = $("<li>" + aSingleMovie["title"] + "</li>");
       $("ul.search-history").append(li);
-    })
+    });
   }
-}); // oh boy something is wrong. and Idk what.
-
+});
 
 // when checkbox is clicked
 // - remove ui list
@@ -84,3 +84,5 @@ $("input.adult").on("click", function() {
 // ok this is a bonus. make them run separately first.
 
 // lab, bring in final project to workshop
+
+// Hmmmmmm, I'm not sure what the problem is. all the code is RUNNING, it's getting rid of and putting back things. But it's affecting ALL of the titles, not just R rated ones.
