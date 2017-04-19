@@ -1,0 +1,73 @@
+/*rules for all pages*/
+header, footer {
+  background-color: black;
+  width: 100%;
+}
+
+header {
+  position: relative;
+  height: 60px;
+}
+
+header h1, nav {
+  display: inline-block;
+  position: absolute;
+}
+
+header h1 {
+  left: 1%;
+  top: -15%;
+}
+
+nav a {
+  font-size: 18px;
+}
+nav {
+  right: 2%;
+  top: 30%;
+}
+
+header h1, a:link, a:visited, footer {
+  color: white;
+}
+
+footer {
+  height: 50px;
+  position: relative;
+}
+
+#moveTheP {
+  position: absolute;
+  left: 1%;
+  top: 1%;
+}
+
+/*rules for Homepage*/
+
+
+
+/*rules for Review*/
+.summary {
+  position: relative;
+  padding: 0px 20px;
+}
+
+.reviewer {
+  height: 100px;
+  background-color: black;
+  margin-top: 5px;
+  transition: height 0.5s ease;
+  transition: width 0.5s ease;
+}
+
+.test {
+  height: 200px;
+  width: 90%;
+  position: absolute;
+  background-color:blue;
+  left: 3%;
+  top: 10px;
+}
+
+
+/*going to have to use a bit of javascript to utilize transition on click instead of on hover
